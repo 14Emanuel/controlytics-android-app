@@ -1,4 +1,4 @@
-package com.example.controlytics
+package com.controlytics.controlytics_app
 
 import android.annotation.SuppressLint
 import android.net.Uri
@@ -10,7 +10,8 @@ import android.webkit.WebView
 import android.webkit.WebViewClient
 import androidx.appcompat.app.AppCompatActivity
 import androidx.webkit.WebViewAssetLoader
-import com.example.controlytics.databinding.ActivityMainBinding
+import com.controlytics.controlytics_app.databinding.ActivityMainBinding
+
 
 
 // Import necessary libraries

@@ -4,14 +4,14 @@ plugins {
 }
 
 android {
-    namespace 'com.example.controlytics'
+    namespace 'com.controlytics.controlytics_app'
     compileSdk 33
     viewBinding {
         enabled = true
     }
 
     defaultConfig {
-        applicationId "com.example.controlytics"
+        applicationId "com.controlytics.controlytics_app"
         minSdk 24
         targetSdk 33
         versionCode 1
@@ -50,3 +50,10 @@ dependencies {
     implementation 'com.squareup.okhttp3:okhttp:4.9.3'
     implementation 'com.google.code.gson:gson:2.8.9'
 }
+android {
+
+    dataBinding {
+        enabled = true
+    }
+}
+
